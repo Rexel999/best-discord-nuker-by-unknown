@@ -47,7 +47,7 @@ if token == "discord.errors.LoginFailure":
   print(f"               {Fore.BLUE}wr{Fore.CYAN}on{Fore.GREEN}g t{Fore.LIGHTBLUE_EX}ok{Fore.LIGHTCYAN_EX}en {Fore.LIGHTGREEN_EX} pa{Fore.LIGHTWHITE_EX}ss{Fore.LIGHTGREEN_EX}ed")
  
        
-client = commands.Bot(command_prefix=(prefix), intents = discord.Intents.all())
+client = commands.Bot(command_prefix=('), intents = discord.Intents.all())
 
 
 
@@ -55,11 +55,11 @@ client = commands.Bot(command_prefix=(prefix), intents = discord.Intents.all())
 
 
 STATUS = (input_var4)
-lol = [" op", " on top", " wizzed u", " fucked u", " says haha"]
+lol = ["Rexel op", "Rexel on top", "Rexel wizzed u", "Rexel fucked u", "Rexel says haha"]
 hi = random.choice(lol)
-MESSAGE_CONTENTS = ["@everyone join ", "@everyone join XD "]
-WEBHOOK_NAMES = ['UNKNOWN.nukez','XD']
-BAN_REASON = ['unknown.nukez', 'unknown op']
+MESSAGE_CONTENTS = ["@everyone | @here", "@everyone | @here"]
+WEBHOOK_NAMES = ['Rexel.nukez','XD']
+BAN_REASON = ['Rexel.nukez', 'Rexel op']
 
 
 
